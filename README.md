@@ -9,6 +9,15 @@ This build is built, tested and released by travis.
 
 Checkout the API Spec [here](http://microservices-demo.github.io/api/index?url=https://raw.githubusercontent.com/microservices-demo/carts/master/api-spec/cart.json)
 
+# Environment Variables
+
+Variable       | Purpose                     | Default Value
+-------------- | --------------------------- | -------------------------------
+PORT           | Server Port                 | `8081`
+DB_URI         | Full MongoDB connection URI | `mongodb://carts-db:27017/data`
+ZIPKIN         | Zipkin Hostname             | `zipkin`
+ZIPKIN_ENABLED | Should enable Zipkin?       | `false`
+
 # Build
 
 ## Java
